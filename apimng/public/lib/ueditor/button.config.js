@@ -1,0 +1,1 @@
+var btn_file = [[ 'emotion', '|', 'bold', 'italic', 'underline', '|', 'simpleupload']];
