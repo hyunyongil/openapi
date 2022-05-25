@@ -9,6 +9,7 @@
 | It's a breeze. Simply tell Laravel the URIs it should respond to
 | and give it the controller to call when that URI is requested.
 |composer create-project laravel/laravel=5.0.* demo --prefer-dist
+
 */
 
 Route::get('/', function(){
