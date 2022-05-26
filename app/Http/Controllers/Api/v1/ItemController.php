@@ -16,4 +16,10 @@ class ItemController extends Controller
 
         return response()->json($randomItem);
     }
+
+    public function itemList(){
+        $datas = [];
+        $itemList = DB::table('itemlist')->whereRaw('supplyPrice >= 10000')->orderBy('no', 'DESC')->limit(10)->get();
+        return response()->json($itemList);
+    }
 }
