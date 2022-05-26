@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
 
 Route::get('data_save', 'ItemController@dataSave');
 
