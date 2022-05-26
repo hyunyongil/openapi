@@ -61,7 +61,7 @@ return [
             'password' => env('DB_PASSWORD', '123456'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '',
+			'prefix'    => 'dmm_',
 			'strict'    => false,
 		],
 
